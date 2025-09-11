@@ -16,6 +16,7 @@ Este curso ofrece una formación sólida en **Aprendizaje de Máquina aplicado**
 
 1. **Introducción al *Machine Learning***
 	* Descargar presentación [PDF](https://github.com/marcoteran/machinelearning/raw/master/lectures/01_ml_introductiontomachinelearning.pdf)
+		* **Taller 01:**  Introducción a Sistemas Inteligentes [Descargar](https://github.com/marcoteran/machinelearning/raw/master/homeworks/01_ml_introductiontointelligentsystems.pdf)
 		* **video** [The Wonderful and Terrifying Implications of Computers That Can Learn](https://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn), Jeremy Howard, TED
 		* **[Russell10]** Chap 1 [(slides)](http://aima.eecs.berkeley.edu/slides-pdf/chapter01.pdf)
 2. **Preprocesamiento de datos y Exploración de los datos (EDA)**
