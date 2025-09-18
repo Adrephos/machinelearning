@@ -1,0 +1,41 @@
+graph TD
+    %% Definición de estilo jerárquico
+    subgraph IA[Inteligencia Artificial]
+        B[Machine Learning]
+        C[Deep Learning]
+        D[Minería de Datos]
+    end
+
+    subgraph Datos[Fuentes y Fundamentos]
+        E[Big Data]
+        F[Estadística]
+    end
+
+    subgraph CD[Ciencia de Datos]
+        G1[Integración de Datos]
+        G2[Modelado y Análisis]
+        G3[Comunicación de Resultados]
+    end
+
+    subgraph Negocios[Inteligencia de Negocios]
+        H1[Decisiones Estratégicas]
+        H2[Indicadores de Rendimiento]
+    end
+
+    %% Relaciones principales
+    B --> C
+    IA --> B
+    IA --> D
+
+    E --> B
+    E --> D
+    F --> B
+    F --> D
+
+    CD --> E
+    CD --> F
+    CD --> B
+    CD --> D
+
+    Negocios --> CD
+    Negocios --> IA
