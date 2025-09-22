@@ -19,7 +19,12 @@ Este curso ofrece una formación sólida en **Aprendizaje de Máquina aplicado**
 		* **Taller 01:**  Introducción a Sistemas Inteligentes [Descargar](https://github.com/marcoteran/machinelearning/raw/master/homeworks/01_ml_introductiontointelligentsystems.pdf)
 		* **video** [The Wonderful and Terrifying Implications of Computers That Can Learn](https://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn), Jeremy Howard, TED
 		* **[Russell10]** Chap 1 [(slides)](http://aima.eecs.berkeley.edu/slides-pdf/chapter01.pdf)
-2. **Preprocesamiento de datos y Exploración de los datos (EDA)**
+2. **Preprocesamiento de datos y Exploración de los datos (EDA):** Limpieza, preparación y validación de datos con `Pipeline`/`ColumnTransformer`.
+	* Descargar presentación: [PDF](https://github.com/marcoteran/machinelearning/raw/master/lectures/02_ml_dataexploration.pdf)
+	* **[Norvig2009]** Peter Norvig et al. *“The Unreasonable Effectiveness of Data”* [(article)](https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/35179.pdf)
+  	* IPython Notebooks:
+			- Exploración de los datos [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_machinelearninglandscape.ipynb)
+			[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/machinelearning/blob/master/notebooks/ml_machinelearninglandscape.ipynb)
 	
 3. **Modelos lineales y regularización**
 	*  Ridge/Lasso/Elastic Net; regresión logística.
