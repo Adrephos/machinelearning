@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{\textbf{Análisis Exploratorio del Rendimiento Estudiantil}}
+\author{David Fonseca Lara \\ Juan Esteban Avendaño Castaño}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+El presente documento resume el análisis exploratorio realizado en el notebook 
+\texttt{EDA and cleaning.ipynb}, el cual utiliza el dataset \textit{Students Performance in Exams} 
+de Kaggle. Este dataset contiene información sobre el rendimiento académico de estudiantes en 
+tres áreas principales: matemáticas, lectura y escritura.  
+
+El objetivo principal es comprender las desigualdades en el desempeño escolar, 
+identificando patrones de distribución, variabilidad y la presencia de casos extremos.
+
+\section{Problema abordado}
+Se busca responder preguntas clave como:
+\begin{itemize}
+    \item ¿Existen diferencias sistemáticas entre el desempeño en matemáticas, lectura y escritura?
+    \item ¿Qué tan grande es la variabilidad en los puntajes entre estudiantes?
+    \item ¿Se observan valores atípicos que podrían indicar problemas estructurales o anomalías en la recolección de datos?
+\end{itemize}
+
+\section{Problemas similares en la literatura}
+El tema del rendimiento escolar ha sido ampliamente estudiado, con énfasis en factores socioeconómicos, 
+culturales y de género.  
+
+El \textit{Coleman Report} (1966) mostró que el contexto socioeconómico es determinante en los logros académicos, 
+más allá de los recursos escolares disponibles.  
+
+De manera complementaria, los informes de la OCDE, en particular el 
+\textit{Programme for International Student Assessment (PISA)} desde el año 2000, han documentado brechas 
+persistentes en el rendimiento escolar vinculadas al género y al nivel socioeconómico.  
+
+Un metaanálisis de Sirin (2005) confirma que el nivel socioeconómico de los estudiantes y sus familias 
+es uno de los predictores más sólidos de éxito académico.
+
+\section{Análisis general del notebook}
+El análisis exploratorio realizado ofrece varias observaciones clave:
+
+\begin{enumerate}
+    \item \textbf{Distribuciones de puntajes:} Los resultados en matemáticas, lectura y escritura son relativamente balanceados, con medias cercanas a las medianas. Esto sugiere ausencia de sesgos muy fuertes.
+    \item \textbf{Variabilidad significativa:} La desviación estándar en torno a 15 puntos refleja una dispersión considerable. Algunos estudiantes alcanzan puntajes sobresalientes (100), mientras otros presentan un rendimiento muy bajo (cercano a 0).
+    \item \textbf{Asimetría en lectura y escritura:} Las distribuciones muestran un sesgo hacia valores bajos, evidenciando un grupo de estudiantes con dificultades en estas áreas.
+    \item \textbf{Detección de outliers:} Casos como un puntaje de 0 en matemáticas sugieren posibles anomalías: ausencia en el examen, errores de captura de datos o situaciones de vulnerabilidad extrema en el aprendizaje.
+\end{enumerate}
+
+En conjunto, los hallazgos muestran un núcleo de estudiantes con rendimiento medio-alto, 
+pero también desigualdades profundas que hacen evidente la necesidad de políticas educativas 
+enfocadas en atender tanto a los estudiantes en riesgo como en la identificación temprana de 
+patrones de desigualdad académica.
+
+\section{Referencia del código}
+El código utilizado para el análisis exploratorio se encuentra disponible en el siguiente repositorio:  
+
+\url{https://github.com/Adrephos/machinelearning/blob/master/project/entrega\%201/EDA\_and\_cleaning.ipynb}
+
+\section*{Referencias}
+\begin{itemize}
+    \item Coleman, J. S., et al. (1966). \textit{Equality of Educational Opportunity}. Washington, DC: U.S. Government Printing Office.
+    \item OECD. (2019). \textit{PISA 2018 Results (Volume I): What Students Know and Can Do}. OECD Publishing. \url{https://doi.org/10.1787/5f07c754-en}
+    \item Sirin, S. R. (2005). Socioeconomic Status and Academic Achievement: A Meta-Analytic Review. \textit{Review of Educational Research}, 75(3), 417–453. \url{https://doi.org/10.3102/00346543075003417}
+\end{itemize}
+
+\end{document}
