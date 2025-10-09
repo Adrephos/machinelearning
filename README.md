@@ -26,33 +26,46 @@ Este curso ofrece una formación sólida en **Aprendizaje de Máquina aplicado**
 			- Exploración de los datos [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_machinelearninglandscape.ipynb)
 			[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/machinelearning/blob/master/notebooks/ml_machinelearninglandscape.ipynb)
 			[![Abrir en Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_machinelearninglandscape.ipynb)
-	
+			
+
 3. **Modelos lineales y regularización:** Ridge, Lasso, Elastic Net; regresión logística.
 	* Descargar presentación: [PDF](https://github.com/marcoteran/machinelearning/raw/master/lectures/03_ml_regressors.pdf)
 	* **Classifier Playground** This page demonstrates basic classifiers: k nearest neighbors, decision tree, and linear classifiers. [(web)](https://www.ccom.ucsd.edu/~cdeotte/programs/classify.html)
 	* IPython Notebooks:
-		* Regresión lineal y logística [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_regression.ipynb)
+		- Regresión lineal y logística [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_regression.ipynb)
 			[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/machinelearning/blob/master/notebooks/ml_regression.ipynb)
 			[![Abrir en Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_regression.ipynb)
+	
 
-3. **SVM**  
-   *  Núcleos, márgenes, \_hyper-parameter tuning\_.
+4. **KNN, SVM y selección de modelos:**  
+   KNN, Núcleos, márgenes, *hyper-parameter tuning*.
 
+   * Descargar presentación: [PDF](https://github.com/marcoteran/machinelearning/raw/master/lectures/04_ml_svmmandmodelselection.pdf)
+   * IPython Notebooks:
+     - **KNN:** Clasificación no lineal, complejidad y sobreajuste [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_knnandoverfitting.ipynb)  
+       [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/machinelearning/blob/master/notebooks/ml_knnandoverfitting.ipynb)  
+       [![Abrir en Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_knnandoverfitting.ipynb)
+     - **SVM:** Máquinas de vectores de soporte y selección de modelos [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_svm_modelselection.ipynb)  
+       [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/machinelearning/blob/master/notebooks/ml_svm_modelselection.ipynb)  
+       [![Abrir en Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_svm_modelselection.ipynb)
 
-4. **Métodos de ensamble**
-	* Árboles de decisión, Random Forests y exploración aleatorizada
-	* Bagging y Boosting
-	* XGBoost
+5. **Métodos de ensamble:**  
+   Árboles de decisión, Random Forest, Bagging/Boosting, XGBoost.
 
+   * Descargar presentación: [PDF](https://github.com/marcoteran/machinelearning/raw/master/lectures/05_ml_treesensemblesgbdt.pdf)
+   * IPython Notebooks:
+     - **Decision Trees & Ensemble Learning** [descargar](https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_treesensemblesgbdt.ipynb)  
+       [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/machinelearning/blob/master/notebooks/ml_treesensemblesgbdt.ipynb)  
+       [![Abrir en Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/marcoteran/machinelearning/blob/master/notebooks/ml_treesensemblesgbdt.ipynb)
 
-5. **Aprendizaje no supervisado**
+6. **Aprendizaje no supervisado**
   	* **Reducción de dimensionalidad:** PCA; selección de variables.
   	* **Aprendizaje no supervisado:** \(k\)-means, clustering jerárquico, validación.
 
-6. **Introducción a Deep Learning** 
+7. **Introducción a Deep Learning** 
 	* Redes neuronales y MLP
 	
-7. **Resumen**
+8. **Resumen**
 
 ---
 ## Evaluación
